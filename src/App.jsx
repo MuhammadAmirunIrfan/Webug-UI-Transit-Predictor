@@ -6,7 +6,7 @@ import {
   Check, X, Zap, Thermometer, Droplets, Wind, ArrowLeft,
   Filter, Layers, LocateFixed, Info, Share2, BellRing,
   Moon, Globe, HelpCircle, Shield, ChevronDown, Calendar,
-  Target, ArrowRight, BarChart3, Grid3X3, Compass
+  Target, ArrowRight, BarChart3, LayoutGrid, Compass
 } from 'lucide-react';
 
 // Malaysian Transport Data
@@ -325,7 +325,7 @@ const PublicTransportCrowdingPredictor = () => {
           className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex flex-col items-center gap-2 hover:shadow-md transition-all"
         >
           <div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center">
-            <Grid3X3 size={24} className="text-orange-500" />
+            <LayoutGrid size={24} className="text-orange-500" />
           </div>
           <span className="text-xs font-medium text-gray-700 text-center">Heatmap</span>
         </button>
